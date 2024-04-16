@@ -2,7 +2,7 @@
 {
     public override string GetInfo()
     {
-        return $"Машина со скоростью {Speed} км/ч, грузоподъемностью {CarryingCapacity} кг, может проехать {Range} км.";
+        return $"Машина со скорость {Speed} км/ч, грузоподъемностью {CarryingCapacity} кг, может проехать {Range} км.";
     }
 }
 
@@ -14,6 +14,6 @@ class Mercedes : Car
 
     public override string GetInfo()
     {
-        return $"Легковой автомобиль со скоростью {Speed} км/ч, грузоподъемностью {CarryingCapacity} кг, может проехать {Range} км.";
+        return $"Mercedes едет со скоростью {Speed} км/ч, грузоподъемностью {CarryingCapacity} кг, может проехать {Range} км.";
     }
 }
